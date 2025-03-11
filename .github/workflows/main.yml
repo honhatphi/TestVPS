@@ -3,7 +3,7 @@ name: Deploy VPS
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   docker-compose:
     runs-on: self-hosted
